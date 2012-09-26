@@ -8,17 +8,17 @@ We make a new Beacon,
 
 We set up a function to execute when it is complete,
 
-	flag.done(function(){
+	_process.done(function(){
 		console.log('We are all done');
 	});
 	
 We can also listen for custom status updates,
 
-	flag.listen('stage-3', function(){
+	_process.listen('stage-3', function(){
 		console.log('We are at 3');
 	});
 
-	flag.listen('stage-7', function(){
+	_process.listen('stage-7', function(){
 		console.log('We are at 7');
 	});
 	
@@ -41,3 +41,5 @@ A non real word example, but simple enough to explain wtf is going on,
 When the status of __stage-3__ is called, it would execute the listerner and log __"We are at 3"__, the same same for __stage-7__ and any other custom status.
 
 When ___process.complete__ is executed, our __done()__ function executes.
+
+Beacon.js is under 1kb and requires nothing but your browser.
