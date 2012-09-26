@@ -4,8 +4,10 @@ Beacon is a minimal status service for processes, for example,
 
 We make a new Beacon,
 
+	```javascript
 	var _process = new Beacon();
-
+	```
+	
 We set up a function to execute when it is complete,
 
 	_process.done(function(){
