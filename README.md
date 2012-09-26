@@ -38,7 +38,7 @@ A non real word example, but simple enough to explain wtf is going on,
 	
 	_process.complete();
 	
-When the status of __stage-3__ is called, it would execute the listerner and log __"We are at 3"__, the same same for __stage-7__ and any other custom status.
+When the status of __stage-3__ is called, it would execute the listener and log __"We are at 3"__, the same same for __stage-7__ and any other custom status.
 
 When __complete()__ is executed, our __done()__ function executes.
 
