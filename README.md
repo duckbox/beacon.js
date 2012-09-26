@@ -40,6 +40,6 @@ A non real word example, but simple enough to explain wtf is going on,
 	
 When the status of __stage-3__ is called, it would execute the listerner and log __"We are at 3"__, the same same for __stage-7__ and any other custom status.
 
-When ___process.complete__ is executed, our __done()__ function executes.
+When __complete()__ is executed, our __done()__ function executes.
 
 Beacon.js is under 1kb and requires nothing but your browser.
