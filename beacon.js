@@ -30,9 +30,9 @@
 		} else {
 			D.fireEvent('on' + event.eventType, event);
 		}
-	},
+	};
 
-	Beacon = function() {
+	this.Beacon = function() {
 
 		// Store this contexts ID
 		this.id = _pack.length;
